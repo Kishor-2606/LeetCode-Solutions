@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Array, Sorting
 - Language: python
-- Runtime: 2387 ms
-- Memory: 17.7 MB
+- Runtime: 10 ms
+- Memory: 12.5 MB
 - Problem: https://leetcode.com/problems/remove-covered-intervals/
