@@ -4,13 +4,15 @@ class Solution(object):
         :type intervals: List[List[int]]
         :rtype: int
         """
-        cnt=0
-        ls=[]
-        for i in range(len(intervals)):
-            for j in range(len(intervals)):
-                if i!=j and intervals[i][0]<=intervals[j][0] and intervals[i][1]>=intervals[j][1]:
-                    ls.append(intervals[j])
-        for i in intervals:
-            if i not in ls:
-                cnt+=1
-        return cnt
+        intervals.sort(key=lambda x:(x[0],-x[1])) 
+        remaining=1
+        prev=intervals[0]
+        for i in range (1,len(intervals)) :
+            if prev[0]<=intervals[i][0] and prev[1]>=intervals[i][1]:
+               continue
+            else:
+                remaining+=1
+                prev=intervals[i]
+        return remaining
+           
+        return remaining
