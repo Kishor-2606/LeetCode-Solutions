@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Hash Table, Math
 - Language: python
-- Runtime: 3 ms
-- Memory: 12.4 MB
+- Runtime: 7 ms
+- Memory: 12.3 MB
 - Problem: https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/
