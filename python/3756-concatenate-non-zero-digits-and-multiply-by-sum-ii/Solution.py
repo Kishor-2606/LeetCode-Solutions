@@ -1,27 +1,29 @@
-MOD, MAX = 1000000007, 100001
-pow = [1] * MAX
-for i in range(1, MAX):
-    pow[i] = (pow[i - 1] * 10) % MOD
+MOD=1000000007
+MAX=100001
+p=[1]*MAX
+for i in range(1,MAX):
+    p[i]=(p[i-1]*10)%MOD
 
 class Solution:
-    def sumAndMultiply(self, s: str, queries: list[list[int]]) -> list[int]:
-        n, res = len(s), []
-        A, B, ln = [[0] * (n + 1) for _ in range(3)]
+    def sumAndMultiply(self,s,queries):
+        n=len(s)
+        A=[0]*(n+1)
+        B=[0]*(n+1)
+        ln=[0]*(n+1)
 
-        for i in range(n):
-            d = int(s[i])
-            A[i + 1] = A[i] + d
-            B[i + 1] = (B[i] * 10 + d) % MOD if d else B[i]
-            ln[i + 1] = ln[i] + (1 if d else 0)
+        for i,c in enumerate(s):
+            d=ord(c)-48
+            A[i+1]=A[i]+d
+            if d:
+                B[i+1]=(B[i]*10+d)%MOD
+                ln[i+1]=ln[i]+1
+            else:
+                B[i+1]=B[i]
+                ln[i+1]=ln[i]
 
-        res = []
-
-        for l, r in queries:
-            r += 1
-
-            sub = (B[l] * pow[ln[r] - ln[l]]) % MOD
-            x = (B[r] - sub) % MOD
-
-            res.append((x * (A[r] - A[l])) % MOD)
-
-        return res
+        ans=[]
+        for l,r in queries:
+            r+=1
+            x=(B[r]-B[l]*p[ln[r]-ln[l]])%MOD
+            ans.append((x*(A[r]-A[l]))%MOD)
+        return ans
