@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Math, String, Prefix Sum
 - Language: python
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 379 ms
+- Memory: 57.9 MB
 - Problem: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/
