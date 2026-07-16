@@ -6,8 +6,11 @@ class Solution(object):
         """
         ls=[]
         prefixgcd=[]
+        mx=0
         for i in range(len(nums)):
-            ls.append(max(nums[:i+1]))
+            if mx<nums[i]:
+                mx=nums[i]
+            ls.append(mx)
 
 
         for i,j in zip(nums,ls):
