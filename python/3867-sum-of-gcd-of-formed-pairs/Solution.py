@@ -1,4 +1,9 @@
 class Solution(object):
+
+    def gcd(self,a, b):
+        while b:
+            a, b = b, a % b
+        return a
     def gcdSum(self, nums):
         """
         :type nums: List[int]
@@ -6,24 +11,16 @@ class Solution(object):
         """
         ls=[]
         prefixgcd=[]
-        mx=0
-        for i in range(len(nums)):
-            if mx<nums[i]:
-                mx=nums[i]
+        mx = 0
+        for x in nums:
+            mx=max(mx, x)
             ls.append(mx)
-
-
         for i,j in zip(nums,ls):
             if i==j:
                 prefixgcd.append(i)
-                continue
             else:
-                mn=min(i,j)
-                gcd=0
-                for k in range(1,mn+1):
-                    if i%k==0 and j%k==0:
-                        gcd=k
-                prefixgcd.append(gcd)
+                g=self.gcd(i,j)
+                prefixgcd.append(g)
         prefixgcd.sort()
         mid=0
         if len(prefixgcd)%2!=0:
@@ -38,12 +35,8 @@ class Solution(object):
             if a==b:
                 sm+=a
             else:
-                mn=min(a,b)
-                gcd=0
-                for k in range(1,mn+1):
-                    if a%k==0 and b%k==0:
-                        gcd=k
-                sm+=gcd
+                g=self.gcd(a,b)
+                sm+=g
             i+=1
             j-=1
 
