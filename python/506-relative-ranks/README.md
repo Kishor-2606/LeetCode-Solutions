@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Sorting, Heap (Priority Queue)
 - Language: python
-- Runtime: 35 ms
-- Memory: 13.2 MB
+- Runtime: 6 ms
+- Memory: 13.3 MB
 - Problem: https://leetcode.com/problems/relative-ranks/
