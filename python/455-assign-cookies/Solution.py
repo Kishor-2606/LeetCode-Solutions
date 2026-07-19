@@ -1,4 +1,3 @@
-
 class Solution(object):
     def findContentChildren(self, g, s):
         """
@@ -12,13 +11,16 @@ class Solution(object):
         j=0
         while(True):
             if len(g)<=i or len(s)<=j:
-                    break
+                    return i
             elif g[i]<=s[j]:
                 i+=1
                 j+=1 
             else:
                 j+=1
-        return i
+        
 
             
         
+
+        
+            
