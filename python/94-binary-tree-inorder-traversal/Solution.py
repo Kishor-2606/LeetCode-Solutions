@@ -12,9 +12,9 @@ class Solution(object):
         
     def helper(self,root,res):
         if root:
-            self.helper(root.left, res)
+            self.helper(root.left,res)
             res.append(root.val)
-            self.helper(root.right, res)
+            self.helper(root.right,res)
         
     def inorderTraversal(self, root):
         res,stack=[],[]
