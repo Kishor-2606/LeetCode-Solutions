@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Two Pointers, String, Greedy
 - Language: python
-- Runtime: 106 ms
-- Memory: 12.7 MB
+- Runtime: 89 ms
+- Memory: 12.6 MB
 - Problem: https://leetcode.com/problems/valid-palindrome-ii/
