@@ -17,6 +17,5 @@ class Solution(object):
                 ans+=f*3
             else:
                 ans+=f*4
-
         return ans
         
