@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Hash Table, Sliding Window, Sorting, Counting
 - Language: python
-- Runtime: 35 ms
-- Memory: 14.4 MB
+- Runtime: 43 ms
+- Memory: 14.5 MB
 - Problem: https://leetcode.com/problems/longest-harmonious-subsequence/
