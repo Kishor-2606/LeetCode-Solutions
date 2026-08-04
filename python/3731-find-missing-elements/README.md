@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Hash Table, Sorting
 - Language: python
-- Runtime: 15 ms
-- Memory: 12.2 MB
+- Runtime: 4 ms
+- Memory: 12.3 MB
 - Problem: https://leetcode.com/problems/find-missing-elements/
