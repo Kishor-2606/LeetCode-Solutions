@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Database
 - Language: sql
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 272 ms
+- Memory: 0B
 - Problem: https://leetcode.com/problems/second-highest-salary/
