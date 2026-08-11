@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Hash Table, Sorting
 - Language: python
-- Runtime: 3 ms
-- Memory: 12.4 MB
+- Runtime: 0 ms
+- Memory: 12.3 MB
 - Problem: https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/
