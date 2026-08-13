@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Hash Table, String
 - Language: python
-- Runtime: 210 ms
-- Memory: 12.9 MB
+- Runtime: 31 ms
+- Memory: 13 MB
 - Problem: https://leetcode.com/problems/maximum-substrings-with-distinct-start/
