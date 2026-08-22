@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: String, Sliding Window
 - Language: python
-- Runtime: 87 ms
-- Memory: 12.4 MB
+- Runtime: 12 ms
+- Memory: 12.5 MB
 - Problem: https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/
