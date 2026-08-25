@@ -14,7 +14,5 @@ class Solution(object):
                 j=j+1
             if cnt==len(s):
                 return True
-        print(i,j)
-        print(cnt)
         return False
         
