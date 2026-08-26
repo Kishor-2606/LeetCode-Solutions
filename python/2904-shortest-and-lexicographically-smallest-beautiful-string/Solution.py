@@ -14,6 +14,8 @@ class Solution(object):
                 right=right+1
             if right==len(s) and freq.get('1',0)<k:
                 break
+        if len(hs)==0:
+            return ""
         st="Z"
         sml_len=1000000
         for i in hs:
@@ -22,8 +24,6 @@ class Solution(object):
         for i in hs:
             if len(i)==sml_len:
                 st=min(st,i)
-        if sml_len==1000000:
-            return ""
         return st
 
         
