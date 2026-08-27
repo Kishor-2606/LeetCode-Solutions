@@ -6,9 +6,8 @@ class Solution(object):
         while start<=end:
             middle=(start+end)//2
             coins=middle*(middle+1)//2
-            if coins>n:
-                end=middle-1
-            elif coins<=n:
+            if coins>n:end=middle-1
+            else:
                 answer=middle
                 start=middle+1
         return answer
