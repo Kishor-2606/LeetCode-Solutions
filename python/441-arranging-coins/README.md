@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Math, Binary Search
 - Language: python
-- Runtime: 216 ms
-- Memory: 12.5 MB
+- Runtime: 7 ms
+- Memory: 12.3 MB
 - Problem: https://leetcode.com/problems/arranging-coins/
