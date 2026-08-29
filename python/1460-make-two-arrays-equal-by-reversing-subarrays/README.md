@@ -4,5 +4,5 @@
 - Tags: Array, Hash Table, Sorting
 - Language: python
 - Runtime: 7 ms
-- Memory: 12.5 MB
+- Memory: 12.6 MB
 - Problem: https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/
