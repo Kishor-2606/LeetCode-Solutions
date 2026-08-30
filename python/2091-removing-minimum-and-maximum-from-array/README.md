@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Array, Greedy
 - Language: python
-- Runtime: 35 ms
-- Memory: 22 MB
+- Runtime: 27 ms
+- Memory: 21.9 MB
 - Problem: https://leetcode.com/problems/removing-minimum-and-maximum-from-array/
