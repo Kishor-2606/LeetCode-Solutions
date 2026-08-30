@@ -13,16 +13,7 @@ class Solution(object):
             if nums[i]>mx:
                 mx=nums[i]
                 index2=i       
-
         copy=index1
         index1=min(index1,index2)
         index2=max(copy,index2)
-        print(index1,index2)
-
-        val1=index2+1
-        val2=(index1+1)+(len(nums)-index2)
-        val3=len(nums)-index1
-
-        print(val1,val2,val3)
-
-        return min(val1,val2,val3)
+        return min(index2+1,(index1+1)+(len(nums)-index2),len(nums)-index1)
