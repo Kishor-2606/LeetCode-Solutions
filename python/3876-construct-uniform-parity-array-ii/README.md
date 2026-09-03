@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Array, Math
 - Language: python
-- Runtime: 155 ms
-- Memory: 21.8 MB
+- Runtime: 15 ms
+- Memory: 21.7 MB
 - Problem: https://leetcode.com/problems/construct-uniform-parity-array-ii/
