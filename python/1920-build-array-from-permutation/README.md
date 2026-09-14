@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Simulation
 - Language: python
-- Runtime: 3 ms
-- Memory: 12.7 MB
+- Runtime: 0 ms
+- Memory: 12.6 MB
 - Problem: https://leetcode.com/problems/build-array-from-permutation/
