@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Hash Table, String, Backtracking, Counting
 - Language: python
-- Runtime: 80 ms
-- Memory: 20.4 MB
+- Runtime: 66 ms
+- Memory: 20.2 MB
 - Problem: https://leetcode.com/problems/letter-tile-possibilities/
