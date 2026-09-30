@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Array, Two Pointers, Binary Search
 - Language: python
-- Runtime: 0 ms
-- Memory: 14.5 MB
+- Runtime: N/A
+- Memory: N/A
 - Problem: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
