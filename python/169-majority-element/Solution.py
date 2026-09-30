@@ -5,8 +5,7 @@ class Solution(object):
         k=0
         for i in nums:
             freq[i]=freq.get(i,0)+1
-        for key,value in freq.items():
-            if value>mx:
-                k=key
-                mx=value
+            if freq[i]>mx:
+                k=i
+                mx=freq[i]
         return k
