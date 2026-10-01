@@ -2,7 +2,6 @@ class Solution(object):
     def isValid(self, s):
         dic={')':'(',']':'[','}':'{'}
         stack=[]
-
         for i in s:
             if i in '({[':
                 stack.append(i)
