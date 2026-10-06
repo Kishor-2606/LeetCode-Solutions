@@ -1,13 +1,11 @@
 class Solution(object):
-    def maxArea(self,H):
-        ans,i,j=0,0,len(H)-1
-        while(i<j):
-            if H[i]<=H[j]:
-                res=H[i]*(j-i)
-                i+=1
-            else:
-                res=H[j]*(j-i)
-                j-=1
-            if res>ans:
-                ans=res
+    def maxArea(self, height):
+        l=0
+        r=len(height)-1
+        ans=0
+        while(l<r):
+            water=(r-l)*(min(height[l],height[r]))
+            ans=max(ans,water)
+            if height[l]<height[r]:l+=1
+            else:r=r-1
         return ans
