@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Database
 - Language: sql
-- Runtime: 382 ms
+- Runtime: 414 ms
 - Memory: 0B
 - Problem: https://leetcode.com/problems/duplicate-emails/
