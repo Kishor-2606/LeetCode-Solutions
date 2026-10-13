@@ -3,6 +3,6 @@
 - Difficulty: Medium
 - Tags: Array, Greedy, Sorting
 - Language: python
-- Runtime: 259 ms
+- Runtime: 249 ms
 - Memory: 22.1 MB
 - Problem: https://leetcode.com/problems/maximum-alternating-sum-of-squares/
