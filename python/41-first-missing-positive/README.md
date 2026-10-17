@@ -3,6 +3,6 @@
 - Difficulty: Hard
 - Tags: Array, Hash Table
 - Language: python
-- Runtime: 122 ms
-- Memory: 27.2 MB
+- Runtime: 26 ms
+- Memory: 26 MB
 - Problem: https://leetcode.com/problems/first-missing-positive/
