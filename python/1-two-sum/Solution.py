@@ -1,9 +1,11 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        dic={}
-        for i in range(len(nums)):
+        dick={}
+        i=0
+        while i<len(nums):
             val=target-nums[i]
-            if val in dic:
-                return [dic[val],i]
-            else:
-                dic[nums[i]]=i
+            if val in dick:
+                return [dick[val],i]
+            dick[nums[i]]=i
+            i+=1
+        
