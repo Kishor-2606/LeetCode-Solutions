@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Hash Table
 - Language: python
-- Runtime: 0 ms
-- Memory: 13.3 MB
+- Runtime: 1 ms
+- Memory: 12.7 MB
 - Problem: https://leetcode.com/problems/two-sum/
