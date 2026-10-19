@@ -6,13 +6,12 @@ class Solution(object):
         hashmap[0]=-1
         for i in range(len(nums)):
             if nums[i]==0:
-                nums[i]=-1
-            sm+=nums[i]
+                sm+=-1
+            else:
+                sm+=nums[i]
             if sm in hashmap:
                 mx_len=max(mx_len,i-hashmap[sm])
             else:
                 hashmap[sm]=i
-        if sm==0:
-            return len(nums)
         return mx_len
 
