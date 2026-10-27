@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Array, Prefix Sum
 - Language: python
-- Runtime: 13 ms
-- Memory: 12 MB
+- Runtime: 0 ms
+- Memory: 12.2 MB
 - Problem: https://leetcode.com/problems/find-the-highest-altitude/
