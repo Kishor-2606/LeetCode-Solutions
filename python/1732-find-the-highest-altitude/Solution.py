@@ -4,6 +4,5 @@ class Solution(object):
         mx=0
         for i in gain:
             val+=i
-            print(val)
             mx=max(mx,val)
         return mx        
