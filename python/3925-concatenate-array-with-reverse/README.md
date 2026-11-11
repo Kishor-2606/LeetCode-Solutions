@@ -4,5 +4,5 @@
 - Tags: Array, Simulation
 - Language: python
 - Runtime: 2 ms
-- Memory: 12.4 MB
+- Memory: 12.5 MB
 - Problem: https://leetcode.com/problems/concatenate-array-with-reverse/
