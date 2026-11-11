@@ -1,7 +1,9 @@
 class Solution(object):
     def concatWithReverse(self, nums):
-        copy=nums[:]
-        copy.reverse()
-        return nums+copy
+        i=len(nums)-1
+        while(i!=-1):
+            nums.append(nums[i])
+            i=i-1
+        return nums
         
         
