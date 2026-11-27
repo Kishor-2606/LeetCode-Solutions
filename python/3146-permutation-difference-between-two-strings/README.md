@@ -4,5 +4,5 @@
 - Tags: Hash Table, String
 - Language: python
 - Runtime: 6 ms
-- Memory: 12.2 MB
+- Memory: 12.3 MB
 - Problem: https://leetcode.com/problems/permutation-difference-between-two-strings/
