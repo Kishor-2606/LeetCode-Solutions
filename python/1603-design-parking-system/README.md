@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - Tags: Design, Simulation, Counting
 - Language: python
-- Runtime: 46 ms
-- Memory: 12.8 MB
+- Runtime: 52 ms
+- Memory: 12.5 MB
 - Problem: https://leetcode.com/problems/design-parking-system/
